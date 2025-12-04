@@ -1,0 +1,2300 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4193582724884681254
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4193582724884681249}
+  - component: {fileID: 4193582724884681250}
+  - component: {fileID: 4193582724884681277}
+  m_Layer: 0
+  m_Name: AttackPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4193582724884681249
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4193582724884681254}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5824750072654374556}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &4193582724884681250
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4193582724884681254}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 0.2, z: 0.5}
+  m_Center: {x: -0.2, y: 0, z: 0}
+--- !u!114 &4193582724884681277
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4193582724884681254}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 425910586eca7e44f825936b982a7788, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attackDamage: 10
+  enemy: {fileID: 4193582725399805011}
+--- !u!1 &4193582725596200470
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4193582725596200465}
+  - component: {fileID: 4193582725596200467}
+  - component: {fileID: 4193582725596200464}
+  m_Layer: 0
+  m_Name: AttackPoint1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4193582725596200465
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4193582725596200470}
+  m_LocalRotation: {x: -0.21592164, y: 0.049631767, z: -0.0000001369044, w: -0.97514856}
+  m_LocalPosition: {x: -0.085, y: -0.371, z: -0.262}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5824750072654374600}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &4193582725596200467
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4193582725596200470}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 0.2, z: 0.5}
+  m_Center: {x: -0.2, y: 0.46, z: 0}
+--- !u!114 &4193582725596200464
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4193582725596200470}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 425910586eca7e44f825936b982a7788, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attackDamage: 10
+  enemy: {fileID: 4193582725399805011}
+--- !u!1 &5824750072654019200
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5824750072654374624}
+  m_Layer: 0
+  m_Name: Pardathrox_ Neck2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5824750072654374624
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5824750072654019200}
+  m_LocalRotation: {x: 1.2112354e-13, y: 0.0000002021441, z: -0.07288153, w: 0.9973406}
+  m_LocalPosition: {x: -0.14843947, y: -0.00011672973, z: -3.236346e-10}
+  m_LocalScale: {x: 1, y: 1, z: 0.99999994}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5824750072654374626}
+  m_Father: {fileID: 5824750072654374654}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 3.9179597, y: -3.695323, z: 4.8829036}
+--- !u!1 &5824750072654019202
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5824750072654374626}
+  m_Layer: 0
+  m_Name: Pardathrox_ Neck3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5824750072654374626
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5824750072654019202}
+  m_LocalRotation: {x: 1.2655815e-13, y: -0.00000046136333, z: 0.16634096, w: 0.9860683}
+  m_LocalPosition: {x: -0.14838344, y: -0.00011169433, z: -3.1024683e-10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5824750072654374628}
+  m_Father: {fileID: 5824750072654374624}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 4.8305244, y: -2.3808184, z: 21.981249}
+--- !u!1 &5824750072654019204
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5824750072654374628}
+  m_Layer: 0
+  m_Name: Pardathrox_ Neck4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5824750072654374628
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5824750072654019204}
+  m_LocalRotation: {x: 1.4041115e-13, y: -0.00000015451946, z: 0.05571076, w: 0.998447}
+  m_LocalPosition: {x: -0.14840904, y: -0.0001171875, z: -3.253808e-10}
+  m_LocalScale: {x: 0.99999994, y: 1, z: 0.99999994}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5824750072654374610}
+  m_Father: {fileID: 5824750072654374626}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 4.711933, y: -2.6079738, z: 19.251638}
+--- !u!1 &5824750072654019206
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5824750072654374630}
+  m_Layer: 0
+  m_Name: Pardathrox_ Pelvis
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5824750072654374630
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5824750072654019206}
+  m_LocalRotation: {x: -0.5, y: 0.5, z: 0.49999934, w: 0.50000066}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 0.99999994, z: 0.99999994}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5824750072654374604}
+  - {fileID: 5824750072654374528}
+  - {fileID: 5824750072654374576}
+  m_Father: {fileID: 5824750072654374608}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -79.531, y: 140.9537, z: -54.702988}
+--- !u!1 &5824750072654019208
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5824750072654374632}
+  m_Layer: 0
+  m_Name: Pardathrox_ R Calf
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5824750072654374632
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5824750072654019208}
+  m_LocalRotation: {x: -0.000000002977942, y: -0.000000016391692, z: 0.80008376, w: 0.59988827}
+  m_LocalPosition: {x: -0.9300739, y: 0.000000076293944, z: 0}
+  m_LocalScale: {x: 1.0000001, y: 1.0000002, z: 1.0000001}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5824750072654374558}
+  m_Father: {fileID: 5824750072654374528}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.0000047888834, y: -0.0000031661366, z: 108.43102}
+--- !u!1 &5824750072654019210
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5824750072654374634}
+  m_Layer: 0
+  m_Name: Pardathrox_ R Clavicle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5824750072654374634
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5824750072654019210}
+  m_LocalRotation: {x: 0.7071077, y: 0.00028152892, z: 0.70710576, w: -0.0002815297}
+  m_LocalPosition: {x: -0.39998686, y: -0.038961943, z: -0.056550786}
+  m_LocalScale: {x: 0.99999994, y: 0.9999999, z: 0.9999999}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5824750072654374542}
+  m_Father: {fileID: 5824750072654374578}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 9.81207, y: 133.12189, z: 169.6228}
+--- !u!1 &5824750072654019212
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5824750072654374636}
+  m_Layer: 0
+  m_Name: Pardathrox_ R Finger0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5824750072654374636
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5824750072654019212}
+  m_LocalRotation: {x: 0.82210666, y: -0.44143245, z: -0.10468192, w: -0.3439764}
+  m_LocalPosition: {x: -0.16192383, y: 0.07228012, z: 0.14052208}
+  m_LocalScale: {x: 1, y: 0.9999999, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5824750072654374638}
+  m_Father: {fileID: 5824750072654374556}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -31.801424, y: 89.34081, z: -45.35399}
+--- !u!1 &5824750072654019214
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5824750072654374638}
+  m_Layer: 0
+  m_Name: Pardathrox_ R Finger01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5824750072654374638
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5824750072654019214}
+  m_LocalRotation: {x: 0, y: -0, z: -0.17410816, w: 0.98472655}
+  m_LocalPosition: {x: -0.16126518, y: -0.00000030517577, z: 0}
+  m_LocalScale: {x: 0.99999994, y: 1, z: 0.9999999}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5824750072654374636}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.0000005579569, y: 0.0000006462303, z: -40.80742}
+--- !u!1 &5824750072654019216
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5824750072654374640}
+  m_Layer: 0
+  m_Name: Pardathrox_ L Toe01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5824750072654374640
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5824750072654019216}
+  m_LocalRotation: {x: -0.0000000074505797, y: 0.000000022351742, z: -0.000000007450581, w: 1}
+  m_LocalPosition: {x: -0.1000354, y: -0.000000019073486, z: 0}
+  m_LocalScale: {x: 1, y: 1.0000001, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5824750072654374606}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 2.1778921e-14, y: 0.0000004877513, z: 0.000000106721686}
+--- !u!1 &5824750072654019218
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5824750072654374642}
+  m_Layer: 0
+  m_Name: Pardathrox_ L Toe1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5824750072654374642
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5824750072654019218}
+  m_LocalRotation: {x: -0.000000016463613, y: 0.000000004609811, z: -0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: -0.19875108, y: 0.18951888, z: -0.0146127315}
+  m_LocalScale: {x: 1, y: 1.0000001, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5824750072654374644}
+  m_Father: {fileID: 5824750072654374596}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: -0.000040364157, y: -0.000035645036, z: -90.00001}
+--- !u!1 &5824750072654019220
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5824750072654374644}
+  m_Layer: 0
+  m_Name: Pardathrox_ L Toe11
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5824750072654374644
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5824750072654019220}
+  m_LocalRotation: {x: 2.4286129e-17, y: -0.000000006519258, z: 0.0000000037252903, w: 1}
+  m_LocalPosition: {x: -0.13422823, y: -0.000000019073486, z: 0}
+  m_LocalScale: {x: 1, y: 1.0000001, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5824750072654374642}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.0000001067217, y: -0.00000017342272, z: 2.4052433e-21}
+--- !u!1 &5824750072654019222
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5824750072654374646}
+  m_Layer: 0
+  m_Name: Pardathrox_ L Toe2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5824750072654374646
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5824750072654019222}
+  m_LocalRotation: {x: 0.22053811, y: 0.22053814, z: -0.67183554, w: 0.67183554}
+  m_LocalPosition: {x: -0.18162796, y: 0.102858685, z: 0.1125161}
+  m_LocalScale: {x: 1, y: 1.0000001, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5824750072654374648}
+  m_Father: {fileID: 5824750072654374596}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 36.346035, y: -0.000048759663, z: -90.00001}
+--- !u!1 &5824750072654019224
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5824750072654374648}
+  m_Layer: 0
+  m_Name: Pardathrox_ L Toe21
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5824750072654374648
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5824750072654019224}
+  m_LocalRotation: {x: 0.0000000074505815, y: 4.656613e-10, z: -0.0000000018626451, w: 1}
+  m_LocalPosition: {x: -0.14261752, y: 0, z: -0.00000015258789}
+  m_LocalScale: {x: 1, y: 0.99999994, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5824750072654374646}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.000000026680429, y: 0.0000009471548, z: 0}
+--- !u!1 &5824750072654019226
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5824750072654374650}
+  m_Layer: 0
+  m_Name: Pardathrox_ L UpperArm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5824750072654374650
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5824750072654019226}
+  m_LocalRotation: {x: -0.2983894, y: -0.3918857, z: 0.15944771, w: 0.85555}
+  m_LocalPosition: {x: -0.3435919, y: 0, z: 0}
+  m_LocalScale: {x: 1.0000001, y: 1.0000001, z: 1.0000002}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5824750072654374598}
+  m_Father: {fileID: 5824750072654374614}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -16.116728, y: -32.508286, z: 42.6296}
+--- !u!1 &5824750072654019228
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5824750072654374652}
+  m_Layer: 0
+  m_Name: Pardathrox_ Neck
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5824750072654374652
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5824750072654019228}
+  m_LocalRotation: {x: 4.5535986e-14, y: 0.00000085498596, z: -0.30825853, w: 0.95130265}
+  m_LocalPosition: {x: -0.55134535, y: 0.0151380915, z: -0.000000014769903}
+  m_LocalScale: {x: 1, y: 0.99999994, z: 0.99999994}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5824750072654374654}
+  m_Father: {fileID: 5824750072654374578}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0.4593428, y: -3.5573633, z: -25.45004}
+--- !u!1 &5824750072654019230
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5824750072654374654}
+  m_Layer: 0
+  m_Name: Pardathrox_ Neck1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5824750072654374654
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5824750072654019230}
+  m_LocalRotation: {x: 5.850881e-14, y: 0.0000005096415, z: -0.18374734, w: 0.9829735}
+  m_LocalPosition: {x: -0.19812031, y: -0.000110168454, z: -3.0559022e-10}
+  m_LocalScale: {x: 1, y: 1.0000001, z: 0.99999994}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5824750072654374624}
+  m_Father: {fileID: 5824750072654374652}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 1.3424668, y: -3.338148, z: -14.063965}
+--- !u!1 &5824750072654019232
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5824750072654374528}
+  m_Layer: 0
+  m_Name: Pardathrox_ R Thigh
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5824750072654374528
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5824750072654019232}
+  m_LocalRotation: {x: -0.42176375, y: 0.8702775, z: -0.06627315, w: -0.24564256}
+  m_LocalPosition: {x: -0.00000030517577, y: -0.0000002670288, z: -0.2283965}
+  m_LocalScale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5824750072654374632}
+  m_Father: {fileID: 5824750072654374630}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 25.238804, y: -162.06232, z: -28.577145}
+--- !u!1 &5824750072654019234
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5824750072654374530}
+  m_Layer: 0
+  m_Name: Pardathrox_ R Toe0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5824750072654374530
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5824750072654019234}
+  m_LocalRotation: {x: 0.19300194, y: 0.1930019, z: -0.6802575, w: 0.6802575}
+  m_LocalPosition: {x: -0.19875106, y: 0.18712631, z: 0.1552954}
+  m_LocalScale: {x: 1, y: 1, z: 0.9999999}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5824750072654374532}
+  m_Father: {fileID: 5824750072654374552}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 31.679222, y: 0.0000040130294, z: -90.000046}
+--- !u!1 &5824750072654019236
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5824750072654374532}
+  m_Layer: 0
+  m_Name: Pardathrox_ R Toe01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5824750072654374532
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5824750072654019236}
+  m_LocalRotation: {x: -0.000000007450581, y: 5.5511145e-17, z: -0.0000000074505797, w: 1}
+  m_LocalPosition: {x: -0.10003524, y: 0.000000019073486, z: 0}
+  m_LocalScale: {x: 1.0000001, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5824750072654374530}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 2.958475e-16, y: -0.0000006353276, z: 0.000000026680432}
+--- !u!1 &5824750072654019238
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5824750072654374534}
+  m_Layer: 0
+  m_Name: Pardathrox_ R Toe1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5824750072654374534
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5824750072654019238}
+  m_LocalRotation: {x: 0.000000018439248, y: -0.0000000026341782, z: -0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: -0.19875106, y: 0.18951885, z: 0.014612808}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5824750072654374536}
+  m_Father: {fileID: 5824750072654374552}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0.000099824836, y: 0.000023798848, z: -90.000046}
+--- !u!1 &5824750072654019240
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5824750072654374536}
+  m_Layer: 0
+  m_Name: Pardathrox_ R Toe11
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5824750072654374536
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5824750072654019240}
+  m_LocalRotation: {x: 0, y: 0.000000011175869, z: -0, w: 1}
+  m_LocalPosition: {x: -0.13422824, y: 0, z: 0}
+  m_LocalScale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5824750072654374534}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -1.1343714e-14, y: 0.00000469909, z: 2.268744e-14}
+--- !u!1 &5824750072654019242
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5824750072654374538}
+  m_Layer: 0
+  m_Name: Pardathrox_ R Toe2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5824750072654374538
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5824750072654019242}
+  m_LocalRotation: {x: -0.22053811, y: -0.22053811, z: -0.67183554, w: 0.6718355}
+  m_LocalPosition: {x: -0.18162797, y: 0.10285869, z: -0.11251594}
+  m_LocalScale: {x: 1.0000001, y: 1, z: 0.99999994}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5824750072654374540}
+  m_Father: {fileID: 5824750072654374552}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: -36.346153, y: 0.00007419961, z: -90.00008}
+--- !u!1 &5824750072654019244
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5824750072654374540}
+  m_Layer: 0
+  m_Name: Pardathrox_ R Toe21
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5824750072654374540
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5824750072654019244}
+  m_LocalRotation: {x: 0.000000007450581, y: -0.0000000121071935, z: 9.020563e-17, w: 1}
+  m_LocalPosition: {x: -0.14261748, y: 0.000000019073486, z: -0.000000076293944}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5824750072654374538}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.000000026680432, y: -0.0000000541946, z: -2.2687429e-14}
+--- !u!1 &5824750072654019246
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5824750072654374542}
+  m_Layer: 0
+  m_Name: Pardathrox_ R UpperArm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5824750072654374542
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5824750072654019246}
+  m_LocalRotation: {x: 0.2983894, y: 0.3918857, z: 0.15944771, w: 0.85555}
+  m_LocalPosition: {x: -0.34359196, y: 0, z: 0}
+  m_LocalScale: {x: 1.0000001, y: 1.0000002, z: 1.0000002}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5824750072654374554}
+  m_Father: {fileID: 5824750072654374634}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 54.635086, y: 67.310616, z: 58.352455}
+--- !u!1 &5824750072654019248
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5824750072654374544}
+  m_Layer: 0
+  m_Name: Pardathrox_ R Finger1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5824750072654374544
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5824750072654019248}
+  m_LocalRotation: {x: 0.0950224, y: 0.059779726, z: 0.038202655, w: 0.992944}
+  m_LocalPosition: {x: -0.261548, y: -0.031069182, z: 0.057694394}
+  m_LocalScale: {x: 0.99999994, y: 0.9999999, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5824750072654374546}
+  m_Father: {fileID: 5824750072654374556}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 10.610787, y: 7.363718, z: 4.6289644}
+--- !u!1 &5824750072654019250
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5824750072654374546}
+  m_Layer: 0
+  m_Name: Pardathrox_ R Finger11
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5824750072654374546
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5824750072654019250}
+  m_LocalRotation: {x: -0.000000016295079, y: -0.0000000065765677, z: -0.17410812, w: 0.98472655}
+  m_LocalPosition: {x: -0.15252219, y: -0.00000015258789, z: 0}
+  m_LocalScale: {x: 1, y: 0.99999994, z: 0.99999994}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5824750072654374544}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.00000044882978, y: -0.0000011994339, z: -20.515934}
+--- !u!1 &5824750072654019252
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5824750072654374548}
+  m_Layer: 0
+  m_Name: Pardathrox_ R Finger2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5824750072654374548
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5824750072654019252}
+  m_LocalRotation: {x: 0.1547557, y: -0.15026706, z: 0.035277955, w: 0.97582066}
+  m_LocalPosition: {x: -0.2641697, y: -0.015380554, z: -0.08290062}
+  m_LocalScale: {x: 1.0000001, y: 1, z: 1.0000001}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5824750072654374550}
+  m_Father: {fileID: 5824750072654374556}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 18.217789, y: -17.29239, z: 15.367952}
+--- !u!1 &5824750072654019254
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5824750072654374550}
+  m_Layer: 0
+  m_Name: Pardathrox_ R Finger21
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5824750072654374550
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5824750072654019254}
+  m_LocalRotation: {x: -0.000000016318836, y: -0.0000000033543095, z: -0.25797224, w: 0.96615237}
+  m_LocalPosition: {x: -0.12117996, y: 0.00000015258789, z: 0}
+  m_LocalScale: {x: 1.0000001, y: 1, z: 0.99999994}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5824750072654374548}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.0000017427241, y: 0.0000007794624, z: -39.337585}
+--- !u!1 &5824750072654019256
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5824750072654374552}
+  m_Layer: 0
+  m_Name: Pardathrox_ R Foot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5824750072654374552
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5824750072654019256}
+  m_LocalRotation: {x: 0.0003586766, y: -0.07241617, z: 0.08734055, w: 0.99354285}
+  m_LocalPosition: {x: -0.43268484, y: 0.000000047683713, z: 0.000000076293944}
+  m_LocalScale: {x: 1, y: 0.9999999, z: 0.99999994}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5824750072654374530}
+  - {fileID: 5824750072654374534}
+  - {fileID: 5824750072654374538}
+  m_Father: {fileID: 5824750072654374558}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 21.716003, y: -12.098432, z: 21.375458}
+--- !u!1 &5824750072654019258
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5824750072654374554}
+  m_Layer: 0
+  m_Name: Pardathrox_ R Forearm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5824750072654374554
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5824750072654019258}
+  m_LocalRotation: {x: -0.000000042855895, y: -0.000000019591274, z: 0.68202555, w: 0.73132837}
+  m_LocalPosition: {x: -0.972986, y: 0, z: -0.00000015258789}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5824750072654374556}
+  m_Father: {fileID: 5824750072654374542}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.0000016384338, y: -0.0000004808814, z: 106.357}
+--- !u!1 &5824750072654019260
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5824750072654374556}
+  m_Layer: 0
+  m_Name: Pardathrox_ R Hand
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5824750072654374556
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5824750072654019260}
+  m_LocalRotation: {x: 0.44262373, y: -0.044203278, z: 0.08882357, w: 0.89120185}
+  m_LocalPosition: {x: -0.6794238, y: -0.00000015258789, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5824750072654374636}
+  - {fileID: 5824750072654374544}
+  - {fileID: 5824750072654374548}
+  - {fileID: 4193582724884681249}
+  m_Father: {fileID: 5824750072654374554}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 78.92507, y: -102.02577, z: -74.643364}
+--- !u!1 &5824750072654019262
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5824750072654374558}
+  m_Layer: 0
+  m_Name: Pardathrox_ R HorseLink
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5824750072654374558
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5824750072654019262}
+  m_LocalRotation: {x: 0.00000001990804, y: 0.00000007638586, z: -0.557713, w: 0.83003396}
+  m_LocalPosition: {x: -0.6087844, y: -0.000000038146972, z: -0.000000076293944}
+  m_LocalScale: {x: 0.9999999, y: 1.0000001, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5824750072654374552}
+  m_Father: {fileID: 5824750072654374632}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.0000045938496, y: -0.0000031134878, z: -101.50763}
+--- !u!1 &5824750072654019296
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5824750072654374592}
+  m_Layer: 0
+  m_Name: Pardathrox_ L Finger2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5824750072654374592
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5824750072654019296}
+  m_LocalRotation: {x: -0.15475567, y: 0.15026706, z: 0.035277948, w: 0.97582066}
+  m_LocalPosition: {x: -0.26416975, y: -0.015380554, z: 0.082900696}
+  m_LocalScale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5824750072654374594}
+  m_Father: {fileID: 5824750072654374600}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: -18.217777, y: 17.292383, z: 0.8507226}
+--- !u!1 &5824750072654019298
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5824750072654374594}
+  m_Layer: 0
+  m_Name: Pardathrox_ L Finger21
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5824750072654374594
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5824750072654019298}
+  m_LocalRotation: {x: 0.000000026871541, y: -0.000000014886567, z: -0.25797224, w: 0.96615237}
+  m_LocalPosition: {x: -0.12117996, y: 0, z: 0.000000076293944}
+  m_LocalScale: {x: 1.0000001, y: 1, z: 0.99999994}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5824750072654374592}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.0000007363943, y: 0.0000010477655, z: -54.89955}
+--- !u!1 &5824750072654019300
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5824750072654374596}
+  m_Layer: 0
+  m_Name: Pardathrox_ L Foot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5824750072654374596
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5824750072654019300}
+  m_LocalRotation: {x: -0.0003587071, y: 0.07241607, z: 0.08734053, w: 0.99354285}
+  m_LocalPosition: {x: -0.4326849, y: 0.000000028610229, z: 0}
+  m_LocalScale: {x: 1.0000001, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5824750072654374606}
+  - {fileID: 5824750072654374642}
+  - {fileID: 5824750072654374646}
+  m_Father: {fileID: 5824750072654374602}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -6.345658, y: 10.824271, z: 18.669203}
+--- !u!1 &5824750072654019302
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5824750072654374598}
+  m_Layer: 0
+  m_Name: Pardathrox_ L Forearm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5824750072654374598
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5824750072654019302}
+  m_LocalRotation: {x: 0.000000011433345, y: -0.000000012259848, z: 0.68202555, w: 0.73132837}
+  m_LocalPosition: {x: -0.9729857, y: 0.000000009536743, z: 0}
+  m_LocalScale: {x: 0.99999994, y: 1, z: 0.9999999}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5824750072654374600}
+  m_Father: {fileID: 5824750072654374650}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.00000057498437, y: -0.00000086923865, z: 121.412346}
+--- !u!1 &5824750072654019304
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5824750072654374600}
+  m_Layer: 0
+  m_Name: Pardathrox_ L Hand
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5824750072654374600
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5824750072654019304}
+  m_LocalRotation: {x: -0.44262373, y: 0.04420327, z: 0.08882358, w: 0.8912018}
+  m_LocalPosition: {x: -0.6794238, y: -0.000000076293944, z: 0}
+  m_LocalScale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5824750072654374616}
+  - {fileID: 5824750072654374620}
+  - {fileID: 5824750072654374592}
+  - {fileID: 4193582725596200465}
+  m_Father: {fileID: 5824750072654374598}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -63.201767, y: -2.2761016, z: -30.589323}
+--- !u!1 &5824750072654019306
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5824750072654374602}
+  m_Layer: 0
+  m_Name: Pardathrox_ L HorseLink
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5824750072654374602
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5824750072654019306}
+  m_LocalRotation: {x: -0.000000018747482, y: -0.0000000412607, z: -0.557713, w: 0.83003396}
+  m_LocalPosition: {x: -0.6087843, y: 0.000000057220458, z: 0.000000076293944}
+  m_LocalScale: {x: 0.9999999, y: 1.0000001, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5824750072654374596}
+  m_Father: {fileID: 5824750072654374612}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.0000024255198, y: 0.000002287581, z: -93.51801}
+--- !u!1 &5824750072654019308
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5824750072654374604}
+  m_Layer: 0
+  m_Name: Pardathrox_ L Thigh
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5824750072654374604
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5824750072654019308}
+  m_LocalRotation: {x: -0.421764, y: 0.870278, z: 0.066272564, w: 0.24564068}
+  m_LocalPosition: {x: 0.00000030517577, y: 0.0000004196167, z: 0.2283965}
+  m_LocalScale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5824750072654374612}
+  m_Father: {fileID: 5824750072654374630}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 1.8206778, y: 176.37599, z: -71.99452}
+--- !u!1 &5824750072654019310
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5824750072654374606}
+  m_Layer: 0
+  m_Name: Pardathrox_ L Toe0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5824750072654374606
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5824750072654019310}
+  m_LocalRotation: {x: -0.19300196, y: -0.19300193, z: -0.6802575, w: 0.6802575}
+  m_LocalPosition: {x: -0.1987511, y: 0.18712635, z: -0.1552954}
+  m_LocalScale: {x: 1, y: 1.0000001, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5824750072654374640}
+  m_Father: {fileID: 5824750072654374596}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -31.67929, y: -0.00003009774, z: -90.00001}
+--- !u!1 &5824750072654019312
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5824750072654374608}
+  m_Layer: 0
+  m_Name: Pardathrox_
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5824750072654374608
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5824750072654019312}
+  m_LocalRotation: {x: 0, y: 0, z: 0.7071063, w: 0.70710725}
+  m_LocalPosition: {x: -0, y: 0.40987185, z: 1.4534484}
+  m_LocalScale: {x: 0.99999994, y: 0.99999994, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5824750072654374630}
+  m_Father: {fileID: 5824750072654374590}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 19.377438, y: 0.61177784, z: 61.130493}
+--- !u!1 &5824750072654019314
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5824750072654374610}
+  m_Layer: 0
+  m_Name: Pardathrox_ Head
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5824750072654374610
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5824750072654019314}
+  m_LocalRotation: {x: -4.797378e-14, y: -0.0000004496978, z: 0.16213572, w: 0.9867685}
+  m_LocalPosition: {x: -0.14842239, y: 0, z: 0}
+  m_LocalScale: {x: 1.0000002, y: 1.0000002, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5824750072654374580}
+  m_Father: {fileID: 5824750072654374628}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -3.1144407, y: 12.0316515, z: -30.7407}
+--- !u!1 &5824750072654019316
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5824750072654374612}
+  m_Layer: 0
+  m_Name: Pardathrox_ L Calf
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5824750072654374612
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5824750072654019316}
+  m_LocalRotation: {x: -0.0000000059610885, y: 0.000000004469516, z: 0.80008376, w: 0.59988827}
+  m_LocalPosition: {x: -0.93007374, y: 0.000000076293944, z: -0.000000076293944}
+  m_LocalScale: {x: 1.0000001, y: 1.0000001, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5824750072654374602}
+  m_Father: {fileID: 5824750072654374604}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.0000020197917, y: -0.0000009054338, z: 117.18004}
+--- !u!1 &5824750072654019318
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5824750072654374614}
+  m_Layer: 0
+  m_Name: Pardathrox_ L Clavicle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5824750072654374614
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5824750072654019318}
+  m_LocalRotation: {x: 0.7071077, y: 0.00028152892, z: -0.70710576, w: 0.0002815297}
+  m_LocalPosition: {x: -0.39998686, y: -0.03896225, z: 0.05655057}
+  m_LocalScale: {x: 0.99999994, y: 0.9999999, z: 0.9999999}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5824750072654374650}
+  m_Father: {fileID: 5824750072654374578}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -5.075775, y: -58.36994, z: -171.74121}
+--- !u!1 &5824750072654019320
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5824750072654374616}
+  m_Layer: 0
+  m_Name: Pardathrox_ L Finger0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5824750072654374616
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5824750072654019320}
+  m_LocalRotation: {x: 0.82210666, y: -0.44143245, z: 0.10468194, w: 0.3439764}
+  m_LocalPosition: {x: -0.16192383, y: 0.07228012, z: -0.1405222}
+  m_LocalScale: {x: 1, y: 0.99999994, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5824750072654374618}
+  m_Father: {fileID: 5824750072654374600}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 40.350235, y: -172.59927, z: -101.52141}
+--- !u!1 &5824750072654019322
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5824750072654374618}
+  m_Layer: 0
+  m_Name: Pardathrox_ L Finger01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5824750072654374618
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5824750072654019322}
+  m_LocalRotation: {x: -0.000000014673569, y: 0.0000000025944136, z: -0.17410815, w: 0.98472655}
+  m_LocalPosition: {x: -0.16126513, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5824750072654374616}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.0000012465007, y: 0.0000012569633, z: -60.053513}
+--- !u!1 &5824750072654019324
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5824750072654374620}
+  m_Layer: 0
+  m_Name: Pardathrox_ L Finger1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5824750072654374620
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5824750072654019324}
+  m_LocalRotation: {x: -0.09502243, y: -0.05977972, z: 0.038202643, w: 0.99294394}
+  m_LocalPosition: {x: -0.261548, y: -0.031069031, z: -0.057694282}
+  m_LocalScale: {x: 1, y: 0.99999994, z: 1.0000001}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5824750072654374622}
+  m_Father: {fileID: 5824750072654374600}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: -10.610782, y: -7.3637185, z: 5.0913773}
+--- !u!1 &5824750072654019326
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5824750072654374622}
+  m_Layer: 0
+  m_Name: Pardathrox_ L Finger11
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5824750072654374622
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5824750072654019326}
+  m_LocalRotation: {x: -3.2430164e-10, y: -0.000000001834196, z: -0.17410813, w: 0.98472655}
+  m_LocalPosition: {x: -0.15252228, y: 0, z: 0}
+  m_LocalScale: {x: 1.0000001, y: 1.0000001, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5824750072654374620}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.0000011710284, y: -0.0000032080466, z: -20.053518}
+--- !u!1 &5824750072654019392
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5824750072654374562}
+  - component: {fileID: 5824750072640419824}
+  m_Layer: 0
+  m_Name: SK_Pardathrox
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5824750072654374562
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5824750072654019392}
+  m_LocalRotation: {x: 0.000000021855694, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5824750072654374560}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &5824750072640419824
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5824750072654019392}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 3
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 4550251c1b701044f8ad2755c0957d1b, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 4
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 4300000, guid: 25fca58047456ce47bb65e1a80f2f53a, type: 3}
+  m_Bones:
+  - {fileID: 5824750072654374610}
+  - {fileID: 5824750072654374612}
+  - {fileID: 5824750072654374614}
+  - {fileID: 5824750072654374616}
+  - {fileID: 5824750072654374618}
+  - {fileID: 5824750072654374620}
+  - {fileID: 5824750072654374592}
+  - {fileID: 5824750072654374622}
+  - {fileID: 5824750072654374594}
+  - {fileID: 5824750072654374596}
+  - {fileID: 5824750072654374598}
+  - {fileID: 5824750072654374600}
+  - {fileID: 5824750072654374602}
+  - {fileID: 5824750072654374604}
+  - {fileID: 5824750072654374606}
+  - {fileID: 5824750072654374640}
+  - {fileID: 5824750072654374642}
+  - {fileID: 5824750072654374646}
+  - {fileID: 5824750072654374644}
+  - {fileID: 5824750072654374648}
+  - {fileID: 5824750072654374628}
+  - {fileID: 5824750072654374634}
+  - {fileID: 5824750072654374626}
+  - {fileID: 5824750072654374652}
+  - {fileID: 5824750072654374580}
+  - {fileID: 5824750072654374624}
+  - {fileID: 5824750072654374654}
+  - {fileID: 5824750072654374578}
+  - {fileID: 5824750072654374650}
+  - {fileID: 5824750072654374582}
+  - {fileID: 5824750072654374584}
+  - {fileID: 5824750072654374586}
+  - {fileID: 5824750072654374588}
+  - {fileID: 5824750072654374630}
+  - {fileID: 5824750072654374528}
+  - {fileID: 5824750072654374542}
+  - {fileID: 5824750072654374576}
+  - {fileID: 5824750072654374632}
+  - {fileID: 5824750072654374554}
+  - {fileID: 5824750072654374558}
+  - {fileID: 5824750072654374552}
+  - {fileID: 5824750072654374540}
+  - {fileID: 5824750072654374536}
+  - {fileID: 5824750072654374532}
+  - {fileID: 5824750072654374538}
+  - {fileID: 5824750072654374534}
+  - {fileID: 5824750072654374530}
+  - {fileID: 5824750072654374556}
+  - {fileID: 5824750072654374546}
+  - {fileID: 5824750072654374638}
+  - {fileID: 5824750072654374550}
+  - {fileID: 5824750072654374636}
+  - {fileID: 5824750072654374544}
+  - {fileID: 5824750072654374548}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 5824750072654374630}
+  m_AABB:
+    m_Center: {x: -0.011738718, y: 0.51719666, z: -0.0000029802322}
+    m_Extent: {x: 1.9701333, y: 1.6999588, z: 1.7612526}
+  m_DirtyAABB: 0
+--- !u!1 &5824750072654019394
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5824750072654374560}
+  - component: {fileID: 5824750072644520240}
+  - component: {fileID: 4193582725395862560}
+  - component: {fileID: 4193582725395862563}
+  - component: {fileID: 4193582725395862565}
+  - component: {fileID: 4193582725399805011}
+  m_Layer: 0
+  m_Name: Pardathrox
+  m_TagString: Enemy
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5824750072654374560
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5824750072654019394}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -4.290385, y: 0, z: -0.79}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5824750072654374590}
+  - {fileID: 5824750072654374562}
+  - {fileID: 4193582726450437599}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &5824750072644520240
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5824750072654019394}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: 25fca58047456ce47bb65e1a80f2f53a, type: 3}
+  m_Controller: {fileID: 9100000, guid: 615fc832f05bdd34bb7e4b2f6adeb102, type: 2}
+  m_CullingMode: 1
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 1
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!135 &4193582725395862560
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5824750072654019394}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 2.3, z: 1}
+--- !u!136 &4193582725395862563
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5824750072654019394}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.6
+  m_Height: 2
+  m_Direction: 1
+  m_Center: {x: 0, y: 1.9, z: -0.1}
+--- !u!195 &4193582725395862565
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5824750072654019394}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.5
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2
+  m_BaseOffset: 0
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
+--- !u!114 &4193582725399805011
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5824750072654019394}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c5d40e8792334243b43f81b0c79a0f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  HP: 50
+  healthBar: {fileID: 4193582726801293557}
+  animator: {fileID: 5824750072644520240}
+  destroyDelay: 5
+--- !u!1 &5824750072654019408
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5824750072654374576}
+  m_Layer: 0
+  m_Name: Pardathrox_ Spine
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5824750072654374576
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5824750072654019408}
+  m_LocalRotation: {x: -0.000002166345, y: 0.00000079871904, z: -0.16571406, w: 0.98617387}
+  m_LocalPosition: {x: -0.2167186, y: 0.017308997, z: 0.00000022491788}
+  m_LocalScale: {x: 1, y: 0.99999994, z: 0.99999994}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5824750072654374578}
+  m_Father: {fileID: 5824750072654374630}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 8.787076, y: -12.87766, z: -26.344557}
+--- !u!1 &5824750072654019410
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5824750072654374578}
+  m_Layer: 0
+  m_Name: Pardathrox_ Spine1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5824750072654374578
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5824750072654019410}
+  m_LocalRotation: {x: -5.0974023e-14, y: 0.0000005503696, z: -0.19843148, w: 0.98011476}
+  m_LocalPosition: {x: -0.37385422, y: -0.000414505, z: -0.0000000011497467}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5824750072654374614}
+  - {fileID: 5824750072654374652}
+  - {fileID: 5824750072654374634}
+  m_Father: {fileID: 5824750072654374576}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 15.146571, y: -3.5365357, z: -23.665754}
+--- !u!1 &5824750072654019412
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5824750072654374580}
+  m_Layer: 0
+  m_Name: Pardathrox_Jaw
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5824750072654374580
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5824750072654019412}
+  m_LocalRotation: {x: 0.85825247, y: -0.5132277, z: 0.00000020581696, w: -0.0000012732751}
+  m_LocalPosition: {x: 0.007360119, y: 0.1810015, z: -0.0000016784668}
+  m_LocalScale: {x: 1, y: 1, z: 1.0000001}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5824750072654374582}
+  m_Father: {fileID: 5824750072654374610}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.00013315132, y: 179.99992, z: -132.57774}
+--- !u!1 &5824750072654019414
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5824750072654374582}
+  m_Layer: 0
+  m_Name: Pardathrox_Tongue_01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5824750072654374582
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5824750072654019414}
+  m_LocalRotation: {x: 0.000000007969723, y: -0.000000004039717, z: -0.45211837, w: 0.89195794}
+  m_LocalPosition: {x: -0.14247707, y: 0.032994386, z: -0.00000015258789}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5824750072654374584}
+  m_Father: {fileID: 5824750072654374580}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.0000010236456, y: 0.000000022168825, z: 1.2406458}
+--- !u!1 &5824750072654019416
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5824750072654374584}
+  m_Layer: 0
+  m_Name: Pardathrox_Tongue_02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5824750072654374584
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5824750072654019416}
+  m_LocalRotation: {x: 0.0000000033194913, y: -0.000000055612475, z: 0.059583638, w: 0.9982233}
+  m_LocalPosition: {x: -0.08495315, y: -0.00000061035155, z: -0.000000009587565}
+  m_LocalScale: {x: 1.0000001, y: 1.0000001, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5824750072654374586}
+  m_Father: {fileID: 5824750072654374582}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0.00000075941966, y: -0.0000063387324, z: 6.8318286}
+--- !u!1 &5824750072654019418
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5824750072654374586}
+  m_Layer: 0
+  m_Name: Pardathrox_Tongue_03
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5824750072654374586
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5824750072654019418}
+  m_LocalRotation: {x: 0, y: 0, z: 0.048311494, w: 0.99883235}
+  m_LocalPosition: {x: -0.07203979, y: 0.00000015258789, z: 0}
+  m_LocalScale: {x: 0.9999998, y: 0.9999998, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5824750072654374588}
+  m_Father: {fileID: 5824750072654374584}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 5.5382447}
+--- !u!1 &5824750072654019420
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5824750072654374588}
+  m_Layer: 0
+  m_Name: Pardathrox_Tongue_04
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5824750072654374588
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5824750072654019420}
+  m_LocalRotation: {x: 4.0589098e-17, y: 2.2756984e-18, z: 0.055978823, w: 0.998432}
+  m_LocalPosition: {x: -0.06674911, y: -0.0000007629394, z: 1.2048076e-10}
+  m_LocalScale: {x: 1.0000002, y: 1.0000002, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5824750072654374586}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 4.6292765e-15, y: 5.207338e-16, z: 6.4180555}
+--- !u!1 &5824750072654019422
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5824750072654374590}
+  m_Layer: 0
+  m_Name: root
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5824750072654374590
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5824750072654019422}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5824750072654374608}
+  m_Father: {fileID: 5824750072654374560}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!1001 &5459980776370624841
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5824750072654374560}
+    m_Modifications:
+    - target: {fileID: 8212075135704845652, guid: f03d17c0ce0a5bc429b1a53a81dd0259, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8212075137143571602, guid: f03d17c0ce0a5bc429b1a53a81dd0259, type: 3}
+      propertyPath: cam
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8212075137143571605, guid: f03d17c0ce0a5bc429b1a53a81dd0259, type: 3}
+      propertyPath: m_Name
+      value: EnemyCanvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 8212075137143571606, guid: f03d17c0ce0a5bc429b1a53a81dd0259, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8212075137143571606, guid: f03d17c0ce0a5bc429b1a53a81dd0259, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8212075137143571606, guid: f03d17c0ce0a5bc429b1a53a81dd0259, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8212075137143571606, guid: f03d17c0ce0a5bc429b1a53a81dd0259, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8212075137143571606, guid: f03d17c0ce0a5bc429b1a53a81dd0259, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8212075137143571606, guid: f03d17c0ce0a5bc429b1a53a81dd0259, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8212075137143571606, guid: f03d17c0ce0a5bc429b1a53a81dd0259, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8212075137143571606, guid: f03d17c0ce0a5bc429b1a53a81dd0259, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 880.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8212075137143571606, guid: f03d17c0ce0a5bc429b1a53a81dd0259, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 390
+      objectReference: {fileID: 0}
+    - target: {fileID: 8212075137143571606, guid: f03d17c0ce0a5bc429b1a53a81dd0259, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8212075137143571606, guid: f03d17c0ce0a5bc429b1a53a81dd0259, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8212075137143571606, guid: f03d17c0ce0a5bc429b1a53a81dd0259, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 8212075137143571606, guid: f03d17c0ce0a5bc429b1a53a81dd0259, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8212075137143571606, guid: f03d17c0ce0a5bc429b1a53a81dd0259, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8212075137143571606, guid: f03d17c0ce0a5bc429b1a53a81dd0259, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8212075137143571606, guid: f03d17c0ce0a5bc429b1a53a81dd0259, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8212075137143571606, guid: f03d17c0ce0a5bc429b1a53a81dd0259, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8212075137143571606, guid: f03d17c0ce0a5bc429b1a53a81dd0259, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8212075137143571606, guid: f03d17c0ce0a5bc429b1a53a81dd0259, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8212075137143571606, guid: f03d17c0ce0a5bc429b1a53a81dd0259, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8212075137143571606, guid: f03d17c0ce0a5bc429b1a53a81dd0259, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f03d17c0ce0a5bc429b1a53a81dd0259, type: 3}
+--- !u!224 &4193582726450437599 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 8212075137143571606, guid: f03d17c0ce0a5bc429b1a53a81dd0259, type: 3}
+  m_PrefabInstance: {fileID: 5459980776370624841}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &4193582726801293557 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8212075137495521724, guid: f03d17c0ce0a5bc429b1a53a81dd0259, type: 3}
+  m_PrefabInstance: {fileID: 5459980776370624841}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
